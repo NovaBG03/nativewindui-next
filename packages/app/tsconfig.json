@@ -1,0 +1,8 @@
+{
+  // todo create shared tsconfig package
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true
+  },
+  "include": ["src", "tailwind.config.ts", "nativewind-env.d.ts"]
+}

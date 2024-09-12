@@ -1,0 +1,18 @@
+{
+  "name": "@acme/app",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./components/theme-toggle": "./src/components/theme-toggle.tsx",
+    "./features/home/screen": "./src/features/home/screen.tsx",
+    "./components/nativewind/text": "./src/components/nativewind/text/index.ts",
+    "./lib/cn": "./src/lib/cn.ts",
+    "./lib/use-color-scheme": "./src/lib/use-color-scheme/index.ts",
+    "./lib/use-initial-android-bar-sync.ts": "./src/lib/use-initial-android-bar-sync.ts",
+    "./theme": "./src/theme/index.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.0"
+  }
+}

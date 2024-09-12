@@ -1,0 +1,12 @@
+{
+  "name": "acme",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "bun@1.1.27",
+  "patchedDependencies": {
+    "@react-native/assets-registry@0.74.87": "patches/@react-native%2Fassets-registry@0.74.87.patch"
+  }
+}

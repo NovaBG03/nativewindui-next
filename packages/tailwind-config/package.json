@@ -1,0 +1,10 @@
+{
+  "name": "@acme/tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "base.ts",
+    "styles.css"
+  ],
+  "dependencies": {}
+}
